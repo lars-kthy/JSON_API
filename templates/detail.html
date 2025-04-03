@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ auto.Naam }}</title>
+</head>
+<body>
+    {% if auto %}
+        <h1>{{ auto.Naam }}</h1>
+        <p><strong>Bouwjaar:</strong> {{ auto.Bouwjaar }}</p>
+        <p><strong>Motor:</strong> {{ auto.Motor }}</p>
+        <p><strong>Categorie:</strong> {{ auto.Categorie }}</p>
+    {% else %}
+        <h1>Auto niet gevonden</h1>
+    {% endif %}
+    <br><a href="/">Terug naar overzicht</a>
+</body>
+</html>
