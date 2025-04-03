@@ -1,40 +1,81 @@
 {
-    "sensors": [
-      {
-        "id": 1,
-        "type": "temperature",
-        "unit": "°C",
-        "model": "DHT22",
-        "location": 1,
-        "accuracy": "±0.5°C"
-      },
-      {
-        "id": 2,
-        "type": "humidity",
-        "unit": "%",
-        "model": "DHT22",
-        "location": 1,
-        "accuracy": "±2%"
-      }
-    ],
-    "locations": [
-      {
-        "id": 1,
-        "name": "Woonkamer",
-        "building": "Hoofdgebouw",
-        "floor": 1,
-        "coordinates": {
-          "lat": 52.370216,
-          "lng": 4.895168
-        }
-      }
-    ],
-    "measurements": [
-      {
-        "id": 1,
-        "sensor_id": 1,
-        "value": 21.5,
-        "timestamp": "2025-03-26T10:30:00Z"
-      }
-    ]
-  }
+  "klassieke_autos": [
+    {
+      "ID": 1,
+      "Naam": "Ford Mustang",
+      "Bouwjaar": 1965,
+      "Motor": "4.7L V8",
+      "Categorie": "Muscle Car"
+    },
+    {
+      "ID": 2,
+      "Naam": "Chevrolet Camaro",
+      "Bouwjaar": 1967,
+      "Motor": "5.4L V8",
+      "Categorie": "Muscle Car"
+    },
+    {
+      "ID": 3,
+      "Naam": "Porsche 911",
+      "Bouwjaar": 1964,
+      "Motor": "2.0L Flat-6",
+      "Categorie": "Sportwagen"
+    },
+    {
+      "ID": 4,
+      "Naam": "Volkswagen Kever",
+      "Bouwjaar": 1938,
+      "Motor": "1.2L Flat-4",
+      "Categorie": "Compact Auto"
+    },
+    {
+      "ID": 5,
+      "Naam": "Ferrari 250 GTO",
+      "Bouwjaar": 1962,
+      "Motor": "3.0L V12",
+      "Categorie": "Sportwagen"
+    },
+    {
+      "ID": 6,
+      "Naam": "Mercedes-Benz 300SL",
+      "Bouwjaar": 1954,
+      "Motor": "3.0L Inline-6",
+      "Categorie": "Luxe Sportwagen"
+    },
+    {
+      "ID": 7,
+      "Naam": "Jaguar E-Type",
+      "Bouwjaar": 1961,
+      "Motor": "3.8L Inline-6",
+      "Categorie": "Sportwagen"
+    },
+    {
+      "ID": 8,
+      "Naam": "Rolls-Royce Silver Cloud",
+      "Bouwjaar": 1955,
+      "Motor": "4.9L Inline-6",
+      "Categorie": "Luxe Auto"
+    },
+    {
+      "ID": 9,
+      "Naam": "Dodge Charger",
+      "Bouwjaar": 1968,
+      "Motor": "7.2L V8",
+      "Categorie": "Muscle Car"
+    },
+    {
+      "ID": 10,
+      "Naam": "Aston Martin DB5",
+      "Bouwjaar": 1963,
+      "Motor": "4.0L Inline-6",
+      "Categorie": "Luxe Sportwagen"
+    }
+  ],
+  "categorieen": [
+    "Muscle Car",
+    "Sportwagen",
+    "Compact Auto",
+    "Luxe Auto",
+    "Luxe Sportwagen"
+  ]
+}
