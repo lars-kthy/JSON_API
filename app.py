@@ -12,6 +12,8 @@
 # 4. Jinja2 Documentation - https://jinja.palletsprojects.com/ - 03-04-2025
 # 5 Jinja2 For Loops voor - https://jinja.palletsprojects.com/en/stable/templates/#for - 03-04-2025
 # 6. Jinja2 If Statements - https://jinja.palletsprojects.com/en/stable/templates/#if - 03-04-2025
+#
+# 
 
 from flask import Flask, render_template, request
 import requests
